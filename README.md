@@ -26,8 +26,24 @@ Ensure you have Python 3.6 or later installed on your system. You will also need
    cd Image-Color-Palette-Generator
 2. **Set Up a Virtual Environment (Optional but recommended)**
 
-  ```bash
+   ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 
-3. **pip install -r requirements.txt**
+3. **Install Dependencies**
+
+   ```bash
+   pip install -r requirements.txt
+
+
+## Acknowledgements
+
+
+- [Pillow](https://python-pillow.org/) - Python Imaging Library for image processing
+- [matplotlib](https://matplotlib.org/) - Plotting library for Python
+- [scikit-learn](https://scikit-learn.org/) - Machine learning library for Python
+- [numpy](https://numpy.org/) - Core library for numerical computations in Python
+
+## Contact
+
+For any inquiries or feedback, feel free to reach out at mori.py.data@gmail.com
